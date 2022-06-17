@@ -8,6 +8,8 @@
     --main-border-color: hsla(210,18%,87%,1);
     --main-select-background-color: #f3f4f6;
     --main-select-border-color: #d0d7de;
+    --main-submit-button-color: #94d3a2;
+    --main-submit-button-border-coloer: rgba(27,31,36,0.15);;
 }
 
 #container {
@@ -218,9 +220,20 @@ header {
 
 /* main */
 
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 30px;
+}
+
 /* top box */
 .top-box {
     border-bottom: 1px solid var(--main-border-color);
+
+    width: 704px;
 }
 
 .top-introduce-box {
@@ -228,12 +241,12 @@ header {
 }
 
 .top-box h1 {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 400;
 }
 
 .top-box p {
-    font-size: 14px;
+    font-size: 13px;
     color: var(--main-span-color);
 }
 
@@ -249,11 +262,13 @@ header {
     align-items: center;
 
     margin: 15px 0px 5px;
+
+    width: 275px;
 }
 
 .second-top-box label {
     font-weight: 500;
-    font-size: 14px;
+    font-size: 13px;
 
     color: var(--main-black-color);
 }
@@ -344,6 +359,8 @@ header {
 
     margin-bottom: 20px;
 
+    width: 704px;
+
     border-bottom: 1px solid var(--main-border-color);
 }
 
@@ -382,3 +399,108 @@ header {
 .private-explaination span {
     font-size: 12px;
 }
+
+/* second middle box */
+
+.second-middle-box {
+    border-bottom: 1px solid var(--main-border-color);
+
+    width: 704px;
+}
+
+.second-middle-box h1{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.second-middle-box span {
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--main-span-color);
+}
+
+.second-middle-box select {
+    border: 1px solid var(--main-border-color);
+    border-radius: 5px;
+    background-color: var(--main-select-background-color);
+
+    margin: 10px 0px;
+    width: 174px;
+    height: 28px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.big-span {
+    font-weight: 700;
+}
+
+/* .second-middle-box select option span {
+    font-weight: 700;
+} */
+
+.dtl-explaination {
+    margin-bottom: 15px;
+}
+
+.middle-checkbox-main {
+    margin-bottom: 20px;
+}
+
+.middle-checkbox-main label {
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+.middle-checkbox-explaination {
+    margin-left: 22px;
+}
+
+.middle-gitignore-box {
+    margin-bottom: 10px;
+}
+
+.middle-gitignore-box h1 {
+    margin-bottom: 5px;
+}
+
+#license-box {
+    margin-bottom: 20px;
+    width: 111px;
+    height: 28px;
+}
+
+/* bottom box */
+
+.bottom-box {
+    width: 704px;
+}
+
+.bottom-explaination-box {
+    height: 40px;
+    margin: 15px 0px;
+    border-bottom: 1px solid var(--main-border-color);
+}
+
+.bottom-explaination-box span {
+    font-weight: 300;
+    font-size: 13px;
+    color: var(--main-span-color);
+}
+
+.bottom-button-box {
+    height: 70px;
+    border-bottom: 1px solid var(--main-border-color);
+}
+
+.bottom-button-box button {
+    border: 1px solid var(--main-submit-button-border-coloer);
+    border-radius: 5px;
+    background-color: var(--main-submit-button-color);
+    color: white;
+    width: 144px;
+    height: 32px;
+}
+
+/* footer */
+
