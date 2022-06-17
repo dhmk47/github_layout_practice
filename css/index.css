@@ -335,6 +335,12 @@ main {
     margin-bottom: 15px;
 }
 
+.second-top-span-box a {
+    color: green;
+    font-size: 14px;
+    font-weight: 400;
+}
+
 .main-description-input-box {
     margin-top: 10px;
     margin-bottom: 20px;
