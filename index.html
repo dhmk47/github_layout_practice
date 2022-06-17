@@ -12,7 +12,7 @@
     <div id="container">
         <header>
             <div class="header-brand-logo">
-                <button><img src="images/header_icon/header_brand_logo.PNG" alt="github-logo"></button>
+                <button type="button"><img src="images/header_icon/header_brand_logo.PNG" alt="github-logo"></button>
             </div>
             <div class="header-input-box">
                 <div class="input-box">
@@ -22,49 +22,36 @@
                     <span>/</span>
                 </div>
             </div>
-            <nav>
-                <div class="header-nav">
-                    <a href="">Pull requests</a>
-                </div>
-                <div class="header-nav">
-                    <a href="">Issues</a>
-                </div>
-                <div class="header-nav">
-                    <a href="">Marketplace</a>
-                </div>
-                <div class="header-nav">
-                    <a href="">Explore</a>
-                </div>
-            </nav>
-            <nav>
-                <div>
-                    <img src="images/header_icon/notify_icon.PNG" alt="notify-icon">
-                </div>
-                <div>
-                    <select name="" id="">
-                        <option value=""></option>
-                        <option value="">New repository</option>
-                        <option value="">Import repository</option>
-                        <option value="">New gist</option>
-                        <option value="">New organization</option>
-                        <option value="">New project</option>
-                    </select>
-                </div>
-                <div>
-                    <select name="" id="">
-                        <option value="">signed in as ~~~~</option>
-                        <div>
-                            <option value=""><a href="">Set status</a></option>
-                        </div>
-                        <option value=""><a href="">Your profile</a></option>
-                        <option value=""><a href="">Your repository</a></option>
-                        <option value=""><a href="">Your codespaces</a></option>
-                        <option value=""><a href="">Your project</a></option>
-                        <option value=""><a href="">Your stars</a></option>
-                        <option value=""><a href="">Your gists</a></option>
-                    </select>
-                </div>
-            </nav>
+            <div class="header-nav-all-menu">
+                <nav class="header-left-nav-menu">
+                    <div class="header-nav">
+                        <a href="">Pull requests</a>
+                    </div>
+                    <div class="header-nav">
+                        <a href="">Issues</a>
+                    </div>
+                    <div class="header-nav">
+                        <a href="">Marketplace</a>
+                    </div>
+                    <div class="header-nav">
+                        <a href="">Explore</a>
+                    </div>
+                </nav>
+                <nav class="header-right-nav-menu">
+                    <div class="header-notify-icon">
+                        <img src="images/header_icon/notify_icon.PNG" alt="notify-icon">
+                    </div>
+                    <div class="header-more-menu">
+                        <span>+</span>
+                        <img src="images/header_icon/more_menu_icon.PNG" alt="more-menu-icon">
+                    </div>
+                    <div class="header-profile-logo">
+                        <button type="button"></button>
+                        <div class="state-display"></div>
+                        <img src="images/header_icon/more_menu_icon.PNG" alt="more-menu-icon">
+                    </div>
+                </nav>
+            </div>
         </header>
         <main>
             <div></div>

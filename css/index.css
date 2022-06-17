@@ -1,5 +1,6 @@
 :root {
     --header-color: #24292f;
+    --color-header-text: rgba(255,255,255,0.7);
     --header-search-border: #57606a;
 }
 
@@ -9,19 +10,30 @@
 }
 
 header {
+    display: flex;
+    align-items: center;
+
+    padding: 32px 16px;
+
     width: 1903px;
     height: 62px;
 
     background-color: var(--header-color);
 }
 
+/* header brand logo */
+
 .header-brand-logo {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+
+    margin: 0px 15px;
 }
 
-.header-brand-logo button {
+.header-brand-logo button
+, .header-profile-logo button 
+, .state-display {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,10 +47,12 @@ header {
 
 .header-input-box {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     border: 1px solid var(--header-search-border);
     border-radius: 5px;
+
+    margin-right: 15px;
 
     width: 272px;
     height: 30px;
@@ -52,6 +66,9 @@ header {
 
 .input-box input{
     border: none;
+
+    width: 246px;
+    height: 28px;
     background-color: var(--header-color);
 }
 
@@ -71,5 +88,120 @@ header {
 }
 
 .small-box span {
+    color: var(--color-header-text);
+}
+
+/* header nav menu */
+
+.header-nav-all-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1550px;
+}
+
+/* left */
+
+.header-left-nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-nav a {
+    margin: 0px 16px 0px 0px;
+
+    font-weight: 500;
+    font-size: 13px;
+    color: var(--color-header-text);
+    width: 81px;
+    height: 21px;
+}
+
+/* right */
+
+.header-right-nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-notify-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 16px;
+
+    width: 16px;
+    height: 16px;
+}
+
+.header-more-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 10px;
+
+    width: 27px;
+    height: 30px;
+}
+
+.header-more-menu span {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: flex-start; */
+
+    margin: 0px 3px;
+    /* padding-bottom: 15px; */
+
+    font-weight: 300;
+    font-size: 20px;
+    width: 16px;
+    height: 30px;
+
     color: white;
+}
+
+.header-more-menu img {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    height: 25px;
+}
+
+.header-profile-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    width: 60px;
+    height: 25px;
+}
+
+.header-profile-logo button {
+    width: 25px;
+    height: 25px;
+}
+
+.state-display {
+    position: absolute;
+    top: 0px;
+    left: 22px;
+    width: 11px;
+    height: 11px;
+
+    background-color: #006eed;
+}
+
+.header-profile-logo img {
+    /* padding-left: 5px; */
+    height: 25px;
 }
