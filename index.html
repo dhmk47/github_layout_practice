@@ -54,27 +54,97 @@
             </div>
         </header>
         <main>
-            <div></div>
-            <div>
-                <div></div>
-                <div></div>
-                <div></div>
+            <div class="top-box">
+                <h1>Create a new Repository</h1>
+                <p>A repository contains all project files, including the revision history. Already have a project repository elsewhere?</p>
+                <a href="">import a repository</a>
             </div>
-            <div>
-                <section></section>
-                <section></section>
+            <div class="second-top-box">
+                <div>
+                    <span>Owner</span>
+                    <label for="repository-name-input-box">Repository name</label>
+                </div>
+                <div class="owner-box">
+                    <select name="" id="">
+                        <option value="" id="option">username</option>
+                    </select>
+                    <div class="circle"></div>
+                </div>
+                <div class="repository-name-box">
+                    <input type="text" id="repository-name-input-box">
+                </div>
+                <div>
+                    <span>Great repository names are short and memorable. Need inspiration? How about </span>
+                </div>
+                <div>
+                    <a href="">studious-robot</a>?
+                </div>
+                <div>
+                    <label for="description-input-box">Description (optional)</label>
+                </div>
+                <div>
+                    <input type="text" id="description-input-box">
+                </div>
             </div>
-            <div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+            <div class="middle-box">
+                <section>
+                    <input type="radio" name="check-radio-box" id="public-radio">
+                    <img src="images/body_icon/public_icon.PNG" alt="public_icon">
+                    <label for="public-radio">Public</label>
+                    <div>
+                        <span>Anyone on the internet can see this repository. You choose who can commit.</span>
+                    </div>
+                </section>
+                <section>
+                    <input type="radio" name="check-radio-box" id="private-radio">
+                    <img src="images/body_icon/private_icon.PNG" alt="private_icon">
+                    <label for="private-radio">Private</label>
+                    <div>
+                        <span>You choose who can see and commit to this repository.</span>
+                    </div>
+                </section>
             </div>
-            <div>
-                <div></div>
+            <div class="second-middle-box">
+                <div>
+                    <h1>Initialize this repository with:</h1>
+                    <span>Skip this step if you’re importing an existing repository.</span>
+                </div>
+                <div>
+                    <input type="checkbox" id="add-readme-file-box">
+                    <label for="add-readme-file-box">Add a README file</label>
+                    <div>
+                        <span>This is where you can write a long description for your project. </span>
+                        <a href="">Learn more.</a>
+                    </div>
+                </div>
+                <div>
+                    <h1>Add .gitignore</h1>
+                    <span>Choose which files not to track from a list of templates. </span>
+                    <a href="">Learn more.</a>
+                    <div>
+                        <select name="" id="">
+                            <option value="">.gitignore template: <span>None</span></option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <h1>Choose a license</h1>
+                    <span>A license tells others what they can and can't do with your code. </span>
+                    <a href="">Learn more.</a>
+                    <div>
+                        <select name="" id="">
+                            <option value="">License: <span>None</span></option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-box">
+                <div>
+                    <span>ⓘ You are creating a public repository in your personal account.</span>
+                </div>
                 <div>
                     <div>
-
+                        <button>Create repository</button>
                     </div>
                 </div>
             </div>
@@ -82,22 +152,21 @@
         <footer>
             <div>
                 <ul>
-                    <li></li>
-                    <li></li>
+                    <li><img src="images/footer_icon/footer_logo.PNG" alt="footer-brand-logo"></li>
+                    <li><span>© 2022 GitHub, Inc.</span></li>
                 </ul>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li><a href="">Terms</a></li>
+                    <li><a href="">Privacy</a></li>
+                    <li><a href="">Security</a></li>
+                    <li><a href="">Status</a></li>
+                    <li><a href="">Docs</a></li>
+                    <li><a href="">Contact GitHub</a></li>
+                    <li><a href="">Pricing</a></li>
+                    <li><a href="">API</a></li>
+                    <li><a href="">Training</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">About</a></li>
                 </ul>
             </div>
         </footer>
