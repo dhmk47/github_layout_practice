@@ -490,7 +490,7 @@ main {
 
 .bottom-button-box {
     height: 70px;
-    border-bottom: 1px solid var(--main-border-color);
+    
 }
 
 .bottom-button-box button {
@@ -504,3 +504,39 @@ main {
 
 /* footer */
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-box {
+    display: flex;
+
+    border-top: 1px solid var(--main-border-color);
+    width: 904px;
+    height: 74px;
+}
+
+.left-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 136px;
+}
+
+.right-ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-left: 5px;
+
+    width: 650px;
+}
+
+.footer-box li a, .footer-box span {
+    font-size: 11px;
+    font-weight: 300;
+}
