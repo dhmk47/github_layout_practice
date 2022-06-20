@@ -94,6 +94,7 @@ header {
     width: 400px !important;
     color: black !important;
     background-color: white !important;
+    
 }
 
 .remove-small-box {
@@ -361,6 +362,7 @@ main {
 
     width: 250px;
     height: 32px;
+    outline-color: blue;
 
     background-color: var(--main-select-background-color);
 }
@@ -392,6 +394,7 @@ main {
 
     width: 704px;
     height: 32px;
+    outline-color: blue;
     background-color: var(--main-select-background-color);
 }
 
@@ -518,13 +521,46 @@ main {
 
 .license-box {
     margin-bottom: 20px;
-    width: 111px;
+    width: 111px !important;
     height: 28px;
 }
 
 .big-span {
     font-weight: 700 !important;
     font-size: 16px !important;
+}
+
+.if-check-add-readme-box {
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 15px;
+
+    width: 704px;
+    height: 23px;
+    
+    color: (var--main-span-color);
+}
+
+.if-check-add-readme-box span {
+    width: 704px;
+}
+
+.different-span-color {
+    width: 100px;
+    border-radius: 5px;
+    background-color: #ddf4ff;
+}
+
+.different-span-color img {
+    padding-top: 2px;
+    padding-left: 5px;
+    height: 14px;
+}
+
+.add-div-box {
+    display: block;
 }
 
 /* bottom box */
