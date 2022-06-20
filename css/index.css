@@ -80,8 +80,29 @@ header {
 
     outline: none;
     color: var(--color-header-text);
-    background-color: var(--header-color);
+    /* background-color: var(--header-color); */
 }
+
+
+
+
+.change-bg-color {
+    background-color: red;
+}
+
+.change-header-input-box {
+    background-color: blue;
+    width: 500px;
+}
+
+.change-input-box {
+    width: 400px;
+    color: black;
+    background-color: red;
+}
+
+
+
 
 .small-box {
     display: flex;
@@ -258,12 +279,19 @@ main {
 
 .label-box {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 
     margin: 15px 0px 5px;
 
     width: 275px;
+}
+
+.label-box form {
+    display: flex;
+    justify-content: space-between;
+
+    width: 250px;
 }
 
 .second-top-box label {
@@ -377,9 +405,14 @@ main {
 }
 
 .section-box {
+    /* display: flex;
+    align-items: center; */
+    margin: 15px 0px;
+}
+
+.section-box form {
     display: flex;
     align-items: center;
-    margin: 15px 0px;
 }
 
 .last-section-box {
@@ -546,3 +579,4 @@ footer {
     font-size: 11px;
     font-weight: 300;
 }
+

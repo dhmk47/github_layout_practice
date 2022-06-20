@@ -12,11 +12,15 @@
     <div id="container">
         <header>
             <div class="header-brand-logo">
-                <button type="button"><img src="images/header_icon/header_brand_logo.PNG" alt="github-logo"></button>
+                <form action="">
+                    <button type="button"><img src="images/header_icon/header_brand_logo.PNG" alt="github-logo"></button>
+                </form>
             </div>
             <div class="header-input-box">
                 <div class="input-box">
-                    <input type="text" placeholder="Search of jump to...">
+                    <form action="">
+                        <input type="text" placeholder="Search of jump to...">
+                    </form>
                 </div>
                 <div class="small-box">
                     <span>/</span>
@@ -46,7 +50,9 @@
                         <img src="images/header_icon/more_menu_icon.PNG" alt="more-menu-icon">
                     </div>
                     <div class="header-profile-logo">
-                        <button type="button"></button>
+                        <form action="">
+                            <button type="button"></button>
+                        </form>
                         <div class="state-display"></div>
                         <img src="images/header_icon/more_menu_icon.PNG" alt="more-menu-icon">
                     </div>
@@ -64,8 +70,10 @@
             </div>
             <div class="second-top-box">
                 <div class="label-box">
-                    <label for="">Owner</label>
-                    <label for="repository-name-input-box">Repository name</label>
+                    <form action="">
+                        <label for="">Owner</label>
+                        <label for="repository-name-input-box">Repository name</label>
+                    </form>
                 </div>
                 <div class="main-input-box">
                     <div class="owner-box">
@@ -78,32 +86,42 @@
                         <!-- <div class="circle"></div> -->
                     </div>
                     <div class="repository-name-box">
-                        <input type="text" id="repository-name-input-box">
+                        <form action="">
+                            <input type="text" id="repository-name-input-box">
+                        </form>
                     </div>
                 </div>
                 <div class="second-top-span-box">
                     <span>Great repository names are short and memorable. Need inspiration? How about <a href="">studious-robot</a>?</span>
                 </div>
                 <div>
-                    <label for="description-input-box">Description <span>(optional)</span></label>
+                    <form action="">
+                        <label for="description-input-box">Description <span>(optional)</span></label>
+                    </form>
                 </div>
                 <div class="main-description-input-box">
-                    <input type="text" id="description-input-box">
+                    <form action="">
+                        <input type="text" id="description-input-box">
+                    </form>
                 </div>
             </div>
             <div class="middle-box">
                 <section class="section-box">
-                    <input type="radio" name="check-radio-box" id="public-radio">
-                    <img src="images/body_icon/public_icon.PNG" alt="public_icon">
-                    <label for="public-radio">Public</label>
+                    <form action="">
+                        <input type="radio" name="check-radio-box" id="public-radio">
+                        <img src="images/body_icon/public_icon.PNG" alt="public_icon">
+                        <label for="public-radio">Public</label>
+                    </form>
                     <div class="public-explaination">
                         <span>Anyone on the internet can see this repository. You choose who can commit.</span>
                     </div>
                 </section>
                 <section class="section-box last-section-box">
-                    <input type="radio" name="check-radio-box" id="private-radio">
-                    <img src="images/body_icon/private_icon.PNG" alt="private_icon">
-                    <label for="private-radio">Private</label>
+                    <form action="">
+                        <input type="radio" name="check-radio-box" id="private-radio">
+                        <img src="images/body_icon/private_icon.PNG" alt="private_icon">
+                        <label for="private-radio">Private</label>
+                    </form>
                     <div class="private-explaination">
                         <span>You choose who can see and commit to this repository.</span>
                     </div>
@@ -115,8 +133,10 @@
                     <span>Skip this step if you’re importing an existing repository.</span>
                 </div>
                 <div class="middle-checkbox-main">
-                    <input type="checkbox" id="add-readme-file-box">
-                    <label for="add-readme-file-box">Add a README file</label>
+                    <form action="">
+                        <input type="checkbox" id="add-readme-file-box">
+                        <label for="add-readme-file-box">Add a README file</label>
+                    </form>
                     <div class="middle-checkbox-explaination">
                         <span>This is where you can write a long description for your project. </span>
                         <a href="">Learn more.</a>
@@ -147,7 +167,9 @@
                 </div>
                 <div>
                     <div class="bottom-button-box">
-                        <button>Create repository</button>
+                        <form action="">
+                            <button>Create repository</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -174,5 +196,6 @@
             </div>
         </footer>
     </div>
+    <script src="js/event.js"></script>
 </body>
 </html>
