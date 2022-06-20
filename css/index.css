@@ -98,16 +98,7 @@ header {
 }
 
 .remove-small-box {
-    width: 0px !important;
-    height: 0px !important;
-    border: none !important;
-    background-color: white !important;
-}
-
-.remove-span-box {
-    width: 0px !important;
-    height: 0px !important;
-    color: white !important;
+    display: none !important;
 }
 
 
@@ -525,15 +516,10 @@ main {
     height: 28px;
 }
 
-.big-span {
-    font-weight: 700 !important;
-    font-size: 16px !important;
-}
-
 .if-check-add-readme-box {
     display: none;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
 
     margin-bottom: 15px;
 
@@ -544,19 +530,22 @@ main {
 }
 
 .if-check-add-readme-box span {
-    width: 704px;
+    font-size: 13px;
 }
 
 .different-span-color {
-    width: 100px;
+    padding-right: 8px;
+    padding-bottom: 3px;
     border-radius: 5px;
+
+    height: 30px;
     background-color: #ddf4ff;
 }
 
 .different-span-color img {
-    padding-top: 2px;
+    padding-top: 9px;
     padding-left: 5px;
-    height: 14px;
+    height: 20px;
 }
 
 .add-div-box {
