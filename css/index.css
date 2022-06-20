@@ -80,27 +80,34 @@ header {
 
     outline: none;
     color: var(--color-header-text);
-    /* background-color: var(--header-color); */
+    background-color: var(--header-color);
 }
 
 
-
-
-.change-bg-color {
-    background-color: red;
-}
 
 .change-header-input-box {
-    background-color: blue;
     width: 500px;
+    background-color: white;
 }
 
 .change-input-box {
-    width: 400px;
-    color: black;
-    background-color: red;
+    width: 400px !important;
+    color: black !important;
+    background-color: white !important;
 }
 
+.remove-small-box {
+    width: 0px !important;
+    height: 0px !important;
+    border: none !important;
+    background-color: white !important;
+}
+
+.remove-span-box {
+    width: 0px !important;
+    height: 0px !important;
+    color: white !important;
+}
 
 
 
