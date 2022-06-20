@@ -370,6 +370,11 @@ main {
     margin-bottom: 15px;
 }
 
+.second-top-span-box span {
+    font-weight: 300;
+    color: var(--main-span-color);
+}
+
 .second-top-span-box a {
     color: green;
     font-size: 14px;
@@ -412,15 +417,12 @@ main {
 }
 
 .section-box {
-    /* display: flex;
-    align-items: center; */
-    margin: 15px 0px;
-}
-
-.section-box form {
     display: flex;
     align-items: center;
+    margin: 30px 0px;
 }
+
+
 
 .last-section-box {
     margin-bottom: 30px;
@@ -428,22 +430,26 @@ main {
 
 .public-explaination {
     position: absolute;
-    top: 35px;
+    top: 55px;
     left: 49px;
 }
 
 .public-explaination span {
+    font-weight: 300;
     font-size: 12px;
+    color: var(--main-span-color);
 }
 
 .private-explaination {
     position: absolute;
-    top: 94px;
+    top: 114px;
     left: 49px;
 }
 
 .private-explaination span {
+    font-weight: 300;
     font-size: 12px;
+    color: var(--main-span-color);
 }
 
 /* second middle box */
@@ -510,10 +516,15 @@ main {
     margin-bottom: 5px;
 }
 
-#license-box {
+.license-box {
     margin-bottom: 20px;
     width: 111px;
     height: 28px;
+}
+
+.big-span {
+    font-weight: 700 !important;
+    font-size: 16px !important;
 }
 
 /* bottom box */
@@ -532,6 +543,11 @@ main {
     font-weight: 300;
     font-size: 13px;
     color: var(--main-span-color);
+}
+
+.bottom-explaination-box .spell-i {
+    font-weight: 700;
+    font-size: 16px;
 }
 
 .bottom-button-box {
